@@ -1,0 +1,107 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+    /* background-color: rgb(0, 0, 0); */
+
+}
+.container-fluid{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  beige;
+
+}
+
+.calc{
+    box-shadow: inset 10px 10px 20px #fff, 
+                10px 10px 20px rgba(0, 0, 0, .16);
+    border-radius: 28px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(4,66px);
+   margin-bottom: 50px;
+
+}
+
+input{
+    grid-column: span 4;
+    height: 68px;
+    width: 258px;
+    box-shadow: inset -10px -10px 20px #fff, 
+                inset 10px 10px 20px rgba(0, 0, 0, .16);
+
+background-color: beige;
+border: none;
+border-radius: 32px;
+color: rgb(0, 0, 0);text-align: end;
+margin: 0px 0px 30px 0px;
+padding: 20px;
+font-size: 40px;
+}
+
+
+button{
+    box-shadow: inset 6px 6px 13px #fff, 
+                 6px 6px 13px rgba(0, 0, 0, .16);
+
+background-color: beige;
+border: none;
+border-radius: 50%;
+width: 50px;
+height: 50px;
+margin: 10px;
+font-weight: bold;
+font-size: 22px;
+
+}
+
+
+button:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.equal{
+    width: 120px;
+    border-radius: 42px;
+    box-shadow: inset 6px 6px 13px #fff, 
+    6px 6px 13px rgba(0, 0, 0, .16);
+
+background-color: beige;
+}
+
+.equal:HOVER{
+    background-color: black;
+    color:white;
+}
+
+.calc svg{
+display: flex;
+align-items: center;
+padding-left: 10px;
+fill: rgb(131, 21, 21);
+}
+
+.calc p{
+    font-family:sans-serif;
+    padding-top: 8PX;
+    font-size: 27px;
+    text-align: center;
+    color:darkgreen;
+    font-weight: bold;
+    
+
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    color: #0a664a;
+    background-color: black;
+    font-style: italic;
+}
